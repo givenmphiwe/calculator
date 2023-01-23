@@ -95,7 +95,7 @@ class _CalculatorState extends State<Calculator> {
     );
   }
 
-  Widget CustomButton(String Text) {
+  Widget CustomButton(String text) {
     return InkWell(
       splashColor: Color(0xFF1d2630),
       onTap: () {
